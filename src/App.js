@@ -1,11 +1,13 @@
 import React from 'react';
+import Header from './Components/Header'
 
-function App() {
+
+export default function App() {
+
   return (
     <div>
-      Starting point
+      <Header/>
     </div>
   );
 }
 
-export default App;
